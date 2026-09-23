@@ -1,0 +1,41 @@
+.experience-with {
+  width: 100%;
+  max-width: 1440px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px 20px 45px;
+
+  background: #161513;
+}
+
+.experience-with-title {
+  display: block;
+
+  width: 208px;
+  height: 30px;
+}
+
+.experience-with-logos {
+  display: block;
+
+  width: 447px;
+  height: 42px;
+
+  margin-top: 22px;
+}
+
+@media (max-width: 600px) {
+  .experience-with {
+    padding-bottom: 35px;
+  }
+
+  .experience-with-logos {
+    width: 90%;
+    height: auto;
+  }
+}
