@@ -1,5 +1,6 @@
 import "./Hero.css"
 
+import avatar from "../../assets/avatar.png"
 import getInTouchButton from "../../assets/Get In Touch Button.png"
 import rectangle from "../../assets/Rectangle 2.png"
 
@@ -7,11 +8,11 @@ function Hero() {
   return (
     <section id="home" className="hero">
 
-      <div className="hero-avatar">
-        <div className="hero-avatar-face">
-          👨🏻‍💻
-        </div>
-      </div>
+      <img
+        src={avatar}
+        alt="Profile"
+        className="hero-avatar"
+      />
 
       <h1 className="hero-title">
         I do code and
